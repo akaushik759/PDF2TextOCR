@@ -1,0 +1,61 @@
+Name Mr. RAHUL TIWARI Booking Date 19/12/2019
+Gender/Age Male 28 Yrs
+Haemoglobin 14.8 gm/dl 13.0 - 16.0
+Total Leucocyte (WBC) Count 7.91 kcells/ul 4.00 - 10.00
+Neutrophils 53.2 % 40.0 - 80.0
+Lymphocytes 35.4 % 20.0 - 40.0
+Monocytes 3.9 % 2.0 - 10.0
+Eosinophils 7.6 % 1.0 - 6.0
+Basophils 0.3 % 0.1 - 1.0
+Immature Granulocytes 0.10 % 0.00 - 2.00
+Red Blood Cell Count 4.67 Million/cumm 4.70 - 6.00
+Nucleated RBCs Count (NRBC) 0 % of WBC 0.00 - 5.00
+Packed Cell Volume 43.4 % 42.0 - 52.0
+Mean Corpuscular Volume (MCV), 92.9 Fl 78.0 - 100.0
+Mean Corpuscular Haemoglobin (MCH) 31.7 pg 27.0 - 31.0
+MCHC-Mean Corpuscular Haemoglobin 34.1 pg 31.5 - 34.5
+RDW - CV, 13.1 % 12.6 - 14.5
+RDW - SD, 42.8 Fl 39.0 - 46.0
+Platelet Count 3.05 Lakh/cum 1.50 - 4.50
+Platelet Distribution Width (PDW) 12 % 10-18
+Platelet - Least Cell Ratio 28.20
+Mean Platelet Volume (MPV) 10 fL 6-95
+Blood Sugar (Fasting) 97 mg/dL 70-110
+HbA1c 3.9 % 4.5 -6.3
+BUN 8 7 - 20
+Creatinine, Serum 0.8 mg/dL 0.3-1.5
+Uric Acid 5.4 mg/dL 2.6 - 8.0
+Sodium, Serum 134 Meq/L 136 - 145
+Potassium, Serum 4.1 Med/L 3.5-5.5
+Chloride, Serum 97.2 Meq/L 98.0 - 110.0
+Total Bilirubin, Serum 0.51 mg/dL 0.10 - 1.00
+Aspartate Transaminase (SGOT), Serum 18 U/L 0 - 40
+Alanine Transaminase (SGPT), Serum 11 U/L 0-41
+Alkaline Phosphatase, Serum 83 U/L 50 - 136
+Gamma Glutamy] Transferase, Serum 17 U/L 10-71
+ee ~ a} - 2
+Total Proteins, Serum 7.0 g/dL 5.5 - 8.0
+Albumin, Serum 4.7 g/dl 3.5-5.5
+Globulin, Serum 2.3 g/dl 2.0 - 3.5
+Albumin / Globulin Ratio 2.0 g/dl 0.8 - 2.0
+Magnesium, Serum 1.9 mg/dL 1.8 - 3.0
+Inorganic Phosphorus, Serum 4.9 mg/dL 2.5 - 5.0
+Triglycerides, Serum 57 mg/dL 25-175
+Cholesterol Total, Serum 123 mg/dL 100 - 200
+Cholesterol HDL, Serum 37.1 mg/dL 40.0 - 60.0
+Cholesterol LDL, Serum 74.5 mg/dL 0.0 - 100.0
+Cholesterol VLDL, Serum 11.4 mg/dL 10.0 - 35.0
+LDL-C / HDL - C, Ratio 2.0 mg/dL 2.5 - 3.0
+Cholesterol Total / HDL - C, Ratio 3.3 mg/dL 3.5 - 5.5
+ee mo - 2
+Total Lipid 303.0 mg/dL 400.0 - 800.0
+T3 (Total), Serum 1.32 nmol/L 0.92 - 2.79
+T4 (Total), Serum 112.8 nmol/L 71.0 - 161.0
+Thyroid Stimulating Hormone (TSH), Serum 2.19 ulU/L 0.50 - 5.50
+Vitamin D 25 Hydroxy Total, Serum 14.03 ng/ml 30.00 - 120.00
+Cortisol (Morning), Serum 6.1 ug/dl 5.0 - 25.0
+Vitamin B12, Serum 552.40 pg/ml 211.00 - 911.00
+Ferittin, Serum 54.8 ng/ml 15.0 - 200.0
+Folic Acid, Serum 3.68 ng/ml 5.31 - 100.00
+Calcium, Serum 9.6 mg/dL 8.1 - 10.4
+High Sensitivity C-Reactive Protein, 0.3 mg/l 0.0 - 3.0

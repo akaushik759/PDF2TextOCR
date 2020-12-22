@@ -1,0 +1,16 @@
+NAME SS, PAGE : 1/1
+SEX/AGE : MALE/30 YR LAB NO : 2234066/20
+Glucose (Fasting) to. HE 57 mmol/L 103 mg/dL
+PQ}. A} do. $B 12.3* mmol/L 221* mg/dL
+Normal 70-108 mg/dL <140 mg/dL
+Impaired Glucose Tolerance <126 mg/dL 140-198 mg/dL
+Impaired Fasting Glycaemia 110-124 mg/dL <140 mg/dL
+Diabetes Mellitus 2>126 mg/dL 2200 mg/dL
+Gestational Diabetes (WHO- 1999) >126 mg/dL 2140 mg/dL
+Gestational Diabetes (IADPSG-2010) 292 mg/dL 2153 mg/dL
+Normal 3.9-6.0 mmol/L <7.8 mmol/L
+Impaired Glucose Tolerance <7.0 mmol/L 7.8-11.0 mmol/L
+Impaired Fasting Glycaemia 6.1-6.9 mmol/L <7.8 mmol/L
+Diabetes Mellitus >7.0 mmol/L >11.1 mmol/L
+Gestational Diabetes (WHO-1999) >7.0 mmol/L >7.8 mmol/L
+Gestational Diabetes IADPSG-2010) >5.1 mmol/L >8.5 mmol/L
