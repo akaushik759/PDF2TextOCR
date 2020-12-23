@@ -48,14 +48,12 @@ def isValidRow(row):
 
 #Current Directory path
 cur_dir_path = os.path.dirname(os.path.realpath("MOST_IMPORTANT_FORMAT.pdf"))
-print(str(cur_dir_path))
 
 # Path of the pdf 
 dir_path = os.path.join(os.path.dirname(os.path.realpath("MOST_IMPORTANT_FORMAT.pdf")),"MOST_IMPORTANT_FORMAT.pdf")
-print(str(dir_path))
 
 output_path = os.path.join(os.path.dirname(os.path.realpath(__file__)),"output")
-print(str(output_path))
+
 
 # Store all the pages of the PDF in a variable 
 pages = convert_from_path(dir_path, 350, fmt='jpeg', output_folder=output_path) 
@@ -97,8 +95,6 @@ for i in range(1, filelimit + 1):
 
 	#quit()
 
-
-
 	# convert the image to black and white for better OCR
 	ret,thresh1 = cv2.threshold(image,120,255,cv2.THRESH_BINARY)
 
@@ -110,20 +106,16 @@ for i in range(1, filelimit + 1):
 	start_flag = False
 	for each in arr:
 		if "Gender/Age" in each and i == 1:
-			print(each+'\n')
 			f.write(each+"\n")
 			continue
 		if "Name" in each and "Value" not in each:
 			start_flag = True
 			if i == 1:
-				print(each+'\n')
 				f.write(each+"\n")
 			continue
 		if start_flag:
-			print(each)
 			row_arr = each.split()
 			if isValidRow(row_arr):
-				print(each+"  :  "+str(hasDecimalValue(each.split())))
 				f.write(each+"\n")
 	bar.next()
 
