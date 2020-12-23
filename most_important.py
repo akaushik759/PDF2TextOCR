@@ -76,39 +76,47 @@ def mostImportantFormat(output_path,pages):
 
 		filepath = os.path.join(output_path,"page_"+str(i)+".jpg")
 
-
 		# load the original image
 		image = cv2.imread(filepath)
-
-		#quit()
 
 		# convert the image to black and white for better OCR
 		ret,thresh1 = cv2.threshold(image,120,255,cv2.THRESH_BINARY)
 
 		# pytesseract image to string to get results
 		text = str(pytesseract.image_to_string(thresh1, config='--psm 6'))
+
+		# Split the entire text into lines and store in a list
 		arr = text.split("\n")
-	
-    
+    	
+    	# Flag to check when to start parsing lines
 		start_flag = False
 		for each in arr:
+
+			# If the line has gender/age texts then print it
 			if "Gender/Age" in each and i == 1:
 				f.write(each+"\n")
 				continue
+			# If the line has Name then print it and start parsing lines from here onwards
 			if "Name" in each and "Value" not in each:
 				start_flag = True
 				if i == 1:
 					f.write(each+"\n")
 				continue
+			# If the line is a valid row print it, else move to next
 			if start_flag:
 				row_arr = each.split()
 				if isValidRow(row_arr):
 					f.write(each+"\n")
-		bar.next()
 
-	#Delete all created images
-	shutil.rmtree(output_path) 
-	os.mkdir(output_path)
+		# Increment the terminal progress bar
+		bar.next()
+	try:
+		#Delete all created images
+		shutil.rmtree(output_path) 
+		os.mkdir(output_path)
+	except Exception as e:
+		print("Error occurred while deleting images : "+str(e))
+	
 
 	bar.finish()
 

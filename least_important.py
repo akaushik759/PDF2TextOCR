@@ -3,8 +3,6 @@ from pdf2image import convert_from_path
 from PIL import Image 
 from progress.bar import Bar
 
-
-
 import pytesseract 
 import sys 
 import os 
@@ -93,28 +91,38 @@ def leastImportantFormat(output_path, pages):
 
 		# pytesseract image to string to get results
 		text = str(pytesseract.image_to_string(thresh1, config='--psm 6'))
+
+		# Split the entire text into lines and store in a list
 		arr = text.split("\n")
-	
-    
+    	
+    	# Flag to check when to start parsing lines
 		start_flag = False
 		for each in arr:
+			# If the line has customer name or Sex/Age in it then print it 
 			if ("NAME" in each and "TEST" not in each) or "SEX/AGE" in each:
 				if i == 1:
 					f.write(each+"\n")
 				continue
+			# If the line has Name and Profile or Ref then start parsing from next line onwards
 			if ("Name" in each and "Profile" in each) or "Ref" in each:
 				start_flag = True
 				continue
+			# If the line is a valid row print it, else move to next
 			if start_flag:
 				row_arr = each.split()
 				if isValidRow(row_arr):
 					f.write(each+"\n")
+					
+		# Increment the terminal progress bar
 		bar.next()
 
 
-	#Delete all created images
-	shutil.rmtree(output_path) 
-	os.mkdir(output_path)
+	try:
+		#Delete all created images
+		shutil.rmtree(output_path) 
+		os.mkdir(output_path)
+	except Exception as e:
+		print("Error occurred while deleting images : "+str(e))
 
 	bar.finish()
 

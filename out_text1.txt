@@ -103,3 +103,9 @@ SELENIUM ICP-MS 243.55 ug/| 60 - 340
 ALUMINIUM ICP-MS 2.65 ug/| < 30
 NICKEL ICP-MS 2.98 ug/| <15
 MANGANESE ICP-MS 10.61 ug/| 7.10 - 20
+HOMOCYSTEINE PHOTOMETRY 15.2 mol/L
+Report Released on (RRT) :28 Jul 2020 13:16 | “0
+CYSTATIN C IMMUNOTURBIDIMETRY 0.8 mg/L
+<= 60 years: <= 1.03 mg/L
+LIPOPROTEIN (A) [LP(A)] IMMUNOTURBIDIMETRY 38.7 mg/dl
+Precision: Intra Assay (%CV): 3.4 %, Inter Assay (%CV): 2.0 %; Sensitivity: 0.002 gm/I

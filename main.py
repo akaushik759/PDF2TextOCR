@@ -58,8 +58,11 @@ def detectFormat(filename):
 
 while(True):
 	filename = input("Please enter the filename with extension. E.g. - Document1.pdf\n")
-	if len(filename) > 0:
-		detectFormat(filename.strip())
-		break
+	if os.path.exists(os.path.join(os.path.dirname(os.path.realpath(__file__)),filename)):		
+		if len(filename) > 0:
+			detectFormat(filename.strip())
+			break
+		else:
+			print("Please enter a filename")
 	else:
-		print("Please enter a filename")
+		print("The file doesn't exist")
